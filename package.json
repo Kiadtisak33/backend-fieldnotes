@@ -1,0 +1,15 @@
+{
+  "name": "backend-fieldnotes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Thai interactive Supabase and Unity backend course",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node source/build.cjs",
+    "verify": "npm run build && node source/verify.cjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
+}
